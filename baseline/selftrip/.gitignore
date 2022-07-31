@@ -1,0 +1,5 @@
+train_data/*.dat
+train_data/*.csv
+dis_matric/*.csv
+self-embedding/*.csv
+logs/*
