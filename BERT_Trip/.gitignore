@@ -310,8 +310,10 @@ config.json
 pytorch_model.bin
 training_args.bin
 checkpoint-*/
-data/*/*
 misc/*
+data/*/train.csv
+data/*/test.csv
+data/*/pretrain_data.csv
 *.csv
 *.dat
 *.txt
