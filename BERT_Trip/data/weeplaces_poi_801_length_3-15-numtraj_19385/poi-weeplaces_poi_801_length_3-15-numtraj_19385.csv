@@ -1,0 +1,802 @@
+poiID,poiCat,poiLon,poiLat
+3976,Shops:Department Store,139.7029051,35.6913487
+41704,Travel:Train Station:Train,132.149766684,34.1648009918
+52069,College & Education:Bookstore,126.9802978,37.5701623
+67,Travel:Airport,-122.38615036,37.6163730619
+56,Food:Coffee Shop,-73.991431,40.7404
+154,Travel:Subway,-73.9924049377,40.749987957
+215,Travel:Airport,-118.402919769,33.9441787918
+454,Travel:Train Station,-73.9770841599,40.7530439366
+66,Travel:Airport,-73.783493042,40.6451219184
+495,Shops:Food & Drink:Grocery / Supermarket,-73.9911603928,40.7349303307
+69750,College & Education:Academic Building,139.760288,35.7105547102
+52100,Food:Snacks,5.11014461517,52.089421666
+94,Travel:Airport,-73.8719201088,40.7743018636
+153,Shops:Technology,-74.005467,40.741161
+963,Travel:Airport,-87.903842926,41.9778372083
+46899,Uncategorized,34.982056,32.220494
+23592,Food:Coffee Shop,-79.3892409,43.6452798
+52327,Travel:Train Station,139.700252116,35.690963277
+174,Travel:Airport:Food Court,-104.673786163,39.8499301968
+2170,Travel:Airport:Plane,-84.440639019,33.6406333866
+11158,Home / Work / Other:Gym / Fitness:Gym,-73.9793644,40.7844871
+106039,Travel:Train Station:Train,37.6622056961,55.7575005087
+24887,Travel:Train Station,4.90054607391,52.3786119667
+16244,Uncategorized,-73.761059,40.720671
+1450,Travel:Airport,-71.0215473175,42.3683104528
+130969,Travel:Train Station:Train,139.701161385,35.658656147
+857,Travel:Airport,-122.3026371,47.4437046314
+745,Parks & Outdoors:Other - Parks & Outdoor,-73.9904522896,40.735844095
+2110,Home / Work / Other:Convention Center,-97.7395248413,30.2636265077
+148,Food:Burgers,-73.9884138107,40.7412581354
+880,Food:Coffee Shop,-122.402018,37.789663
+8014,Food:Burritos,-74.001246,40.742054
+2807,Food:Coffee Shop,-87.634195,41.882073
+3902,Home / Work / Other:Corporate / Office,-73.99559,40.763422
+7410,Shops:Drug Store / Pharmacy,-73.977588,40.76354
+54770,Travel:Highway / Traffic,34.94724224,31.88505429
+1010,Travel:Train Station,-122.394867539,37.7766425825
+8639,Home / Work / Other:Corporate / Office:Coworking Space,-73.9936,40.7559
+63073,Travel:Highway / Traffic,127.015548,37.510085
+97,Travel:Airport,-97.6671481133,30.2025773012
+249,Food:Coffee Shop,-0.227440595627,51.5133230458
+7268,Food:Coffee Shop,-106.057065,39.633075
+14458,Food:Coffee Shop,-93.388336,44.936704
+6300,Travel:Subway,-73.9901733398,40.7063761895
+889,Travel:Airport,-115.150065422,36.0853669545
+3414,Food:Tea Room,-71.0187909,42.3620661
+16234,Travel:Bus Station,-73.990667,40.756977
+47626,Nightlife:Karaoke,141.1186739,39.2793405
+3912,Parks & Outdoors:Park,-73.9878988266,40.742274235
+1284,Great Outdoors:Parks,-122.4270638,37.7597548
+29463,Home / Work / Other:Home,-122.874854,49.097265
+69758,Travel:Train Station,139.739098549,35.6286632585
+645,College & Education:Stadium:Baseball,-122.390055656,37.7785166661
+836,Parks & Outdoors:Plaza / Square,-73.9836072922,40.7537591455
+1894,Travel:Hotel,-97.7389279,30.2649556
+16242,Food:Coffee Shop,-73.991113,40.6862489
+3660,Parks & Outdoors:Park,-73.966999054,40.7807364089
+155,Travel:Train Station,-77.0064353943,38.8977798696
+110682,Parks & Outdoors:Basketball Court,-118.415,33.9829
+63020,Food:Coffee Shop,127.0275622,37.4991846
+2215,Travel:Airport:Terminal,-122.592959404,45.5891162891
+296,Home / Work / Other:Gym / Fitness:Track,-73.9935207367,40.7034807357
+436,Travel:Hotel,-73.9883708954,40.7458589105
+25140,Travel:Train Station,4.4686460495,51.9248168214
+3277,Food:Coffee Shop,-73.9899308,40.7331076
+2499,Travel:Airport,-112.002182007,33.4365268902
+4090,Travel:Subway,-122.4017591,37.7890206
+4008,Home / Work / Other:Government:Monument / Landmark,139.7666502,35.681387437
+128,Food:Coffee Shop,-74.004793,40.741964
+715,Shops:Food & Drink:Grocery / Supermarket,-122.43288517,37.8045623549
+115,Travel:Airport,-77.0435357094,38.853344487
+5971,Food:French,-73.9930915833,40.7479072097
+158,Arts & Entertainment:Stadium,-73.9934778214,40.7504918782
+127,Arts & Entertainment:Art Gallery,-73.9775562286,40.7613658922
+604,Shops:Technology,-122.438191,37.800487
+3168,Food:Café,-73.9743606,40.7538157
+54,Home / Work / Other:Corporate / Office:Tech Startup,-73.9911818504,40.7282750809
+4605,Food:Sandwiches,-111.84032,39.677984
+2525,Parks & Outdoors:Other - Parks & Outdoor,-73.9976406097,40.7308361219
+270024,Travel:Highway / Traffic,139.119234681,36.2543249823
+52199,Travel:Subway,139.622714147,35.4661839368
+6828,Travel:Train Station,-0.113124847412,51.5026921731
+5910,Shops:Food & Drink:Grocery / Supermarket,-73.9905595779,40.7365269713
+2006,Parks & Outdoors:Plaza / Square,-73.986954689,40.7559697428
+9590,Food:Coffee Shop,-118.469994,34.065051
+3735,Food:Coffee Shop,-73.97312,40.761239
+315967,Shops:Food & Drink:Grocery / Supermarket,131.596266031,33.2452603973
+6951,Travel:Highway / Traffic,-74.0116739273,40.7635112274
+1735,Travel:Airport,-83.3562970161,42.207795005
+3498,Arts & Entertainment:Other - Entertainment,-74.0056874,40.7405341
+89929,Travel:Train Station:Train,139.701161385,35.658656147
+69751,Travel:Highway / Traffic,135.721923,34.943075
+6571,Home / Work / Other:Gym / Fitness,-73.9901089668,40.732718221
+1192,Food:Coffee Shop,-77.0422757,38.901247
+1927,Parks & Outdoors:Bridge,-122.478590012,37.819480227
+20514,Home / Work / Other:Corporate / Office,-73.9849844,40.7418973
+1302,Food:Coffee Shop,-122.4140773,37.7524855
+179281,Home / Work / Other:Corporate / Office,-73.989379406,40.7368074363
+997,Travel:Airport,-117.199745178,32.7320575016
+6718,Arts & Entertainment:Stadium,-73.9263367653,40.8296007235
+15675,Food:Coffee Shop,-75.1570834,39.9425917
+52077,Home / Work / Other:Other - Buildings,126.898087263,37.4854750657
+624,Shops:Mall,-122.403681278,37.7844947599
+3140,Parks & Outdoors:Park,-73.9522,40.721
+5344,Food:Café,-74.0038,40.7198
+2819,Food:Coffee Shop,-117.196462154,32.7326802373
+873,Food:Café,-122.400996,37.78939
+707,Parks & Outdoors:Bridge,-122.3730357,37.8025696
+129,Travel:Airport:Gate,-74.1806316376,40.6915722654
+3644,Travel:Subway,-73.9724814892,40.7136874633
+465,Arts & Entertainment:Movie Theater:Cineplex,-73.9906668663,40.734039317
+5268,Parks & Outdoors:Baseball Field,-71.0972499847,42.3464446269
+5310,Parks & Outdoors:Lake / Pond,-73.9699172974,40.6648843594
+1128,Travel:Airport,-77.4479055405,38.9527009821
+1034,Travel:Airport,-122.212611437,37.7122674059
+412,Food:Pizza,-80.2781295776,25.7949454756
+26100,Travel:Train Station,-79.3808984756,43.6453612122
+7697,Travel:Airport,-87.7426528931,41.7876330084
+2574,Travel:Airport,-74.1795158386,40.6914421065
+3549,Arts & Entertainment:Art Gallery,-73.9629435539,40.7791928248
+95,Arts & Entertainment:Bowling Alley,-73.9574959874,40.7219188016
+33288,Travel:Airport,-46.6591501236,-23.6270288963
+135,Parks & Outdoors:Garden,-74.00639534,40.7455988045
+541981,Home / Work / Other:Home,6.1571189,52.2506611
+248028,College & Education:Bookstore,-81.0983517766,32.0770497228
+3271,Travel:Airport,-80.9440255165,35.2206608315
+18387,Travel:Train Station:Train,-74.1649675369,40.7347059524
+3657,Nightlife:Bar,-73.9942,40.7214
+3488,Travel:Airport,-75.242099762,39.8761840928
+193,Food:Coffee Shop,2.3338231,48.8708737
+13539,Food:Coffee Shop,-84.4283008575,33.8491045865
+3587,Parks & Outdoors:Other - Parks & Outdoor,-73.9915037155,40.7309987243
+6460,Shops:Food & Drink:Grocery / Supermarket,-73.9889039,40.7339949
+546,Food:Coffee Shop,-73.9878596,40.7457021
+18290,Food:Donuts,-73.9545057,40.8211216
+119455,Home / Work / Other:Corporate / Office:Conference room,-122.683682442,45.5247205645
+3671,Home / Work / Other:Other - Buildings,-73.9786862,40.758753
+6210,Travel:Airport,-81.3083767891,28.4312605562
+69770,Travel:Train Station:Train,136.8827559,35.1708471
+913,Nightlife:Bar,-122.392465,37.78252
+9132,Parks & Outdoors:Other - Parks & Outdoor,-73.9907312393,40.7073196248
+1072,Shops:Food & Drink:Grocery / Supermarket,-122.407666,37.770627
+1762,Travel:Subway,-122.407050133,37.7849441574
+1125,Travel:Train Station:Train,-73.9938640594,40.7507357097
+3178,Nightlife:Dive Bar,-73.993143,40.724614
+119,Travel:Airport,-73.7779569626,40.6460662209
+5077,Home / Work / Other:Corporate / Office,-122.406529784,37.7926788765
+597,Home / Work / Other:Gym / Fitness:Yoga Studio,-122.421838,37.798321
+18928,Food:Donuts,-72.120934,43.642233
+110914,Food:Sushi,-118.78524,34.184612
+23410,Home / Work / Other:Corporate / Office,-73.990814,40.742046
+5886,Travel:Airport:Terminal,13.2903671265,52.5543330492
+157981,Home / Work / Other:Home,-94.7049558,38.9535148
+11962,Home / Work / Other:Corporate / Office,-122.335853577,47.5808971172
+4696,Shops:Technology,-0.142049789429,51.514311217
+5191,Travel:Airport:Terminal,-95.3416728973,29.9868693093
+69,Food:Coffee Shop,-122.407822609,37.7824639581
+1013,Shops:Food & Drink:Grocery / Supermarket,-122.399615049,37.7810987532
+1478,Travel:Train Station,-71.0554075241,42.3525817797
+5919,Nightlife:Pub,-74.0096354485,40.7523774849
+22811,Food:Coffee Shop,-123.1195386,49.2632721
+81874,Travel:Train Station,139.772830009,35.6987104678
+4269,Travel:Airport,-93.21144104,44.8814175932
+58460,Travel:Train Station,5.47951698303,51.4429877191
+107726,Home / Work / Other:Corporate / Office:Coworking Space,174.7814,-36.850117
+6407,Shops:Bookstore,-73.9782857895,40.785870599
+314818,Food:Café,130.4017155,33.5903547
+73,Home / Work / Other:Event Space,-74.0018033981,40.7189264447
+225485,Home / Work / Other:Home,-84.50866,39.104216
+15117,Home / Work / Other:Gym / Fitness:Yoga Studio,-122.4127563,37.8058453
+1477,Travel:Airport,-76.6687774658,39.1797115459
+666,Home / Work / Other:Corporate / Office:Tech Startup,-122.151961327,37.4159477566
+15526,Travel:Airport,-97.0405197144,32.8976057801
+85,Food:Café,-73.9906024933,40.7558072014
+216,Home / Work / Other:Corporate / Office:Tech Startup,-122.400612831,37.7820951009
+6059,Shops:Apparel,-73.998284,40.723567
+3501,Arts & Entertainment:Other - Entertainment,-73.979165554,40.7591067143
+5639,Travel:Train Station,-0.177068710327,51.5165144945
+939,Travel:Airport,-121.9263044,37.3666249829
+79882,Travel:Train Station:Train,8.54028224945,47.3781560859
+5013,Nightlife:Bar,-73.981,40.73
+40264,Shops:Technology,-79.3798184,43.6536617
+272,Travel:Train Station,-73.8085126877,40.6995602859
+43084,Food:Coffee Shop,-79.3824863434,43.6708827061
+270782,Travel:Train Station:Train,139.622732,35.439786
+195918,Uncategorized,139.6840756,35.6292251
+277,Food:Sandwiches,-73.988414,40.738771
+17,Food:Coffee Shop,-73.991199,40.7365179
+126915,Home / Work / Other:Corporate / Office,-105.202996731,40.0696070507
+41539,Food:Burgers,-87.947872,42.261403
+1258,Travel:Train Station,-122.0761389,37.3938846
+909,Parks & Outdoors:Harbor / Marina,-122.393596172,37.7954575818
+50543,Travel:Airport,4.76141452789,52.3089640401
+634,Food:Coffee Shop,-122.421199,37.75647
+7739,Home / Work / Other:Corporate / Office,-74.005092,40.720114
+320,Arts & Entertainment:Stadium:Baseball,-73.8461279869,40.7564573647
+2576,Nightlife:Nightclub / Discotheque,-73.9893364906,40.7317223004
+34948,Home / Work / Other:Government:Monument / Landmark,10.0069999695,53.5526999134
+13202,Food:Sandwiches,-73.990456,40.741602
+3759,Food:Coffee Shop,-97.743978,30.26278
+20104,Food:Coffee Shop,-84.4103085995,33.7794148609
+48309,Food:Coffee Shop,-122.6825529,45.529947
+20383,Nightlife:Karaoke,-123.004689217,37.7038558135
+737,Shops:Mall,-122.407165468,37.784515958
+692,Parks & Outdoors:Plaza / Square,-122.407425642,37.7879881171
+1374,Travel Spots:Airports,12.6468515396,55.6289166245
+3173,Food:Coffee Shop,-73.960623,40.717416
+5969,Food:Desserts,-73.985846,40.73169
+413912,Home / Work / Other:Home,-3.1641546,55.9741265
+661803,Home / Work / Other:Gym / Fitness:Gym,-122.127824,47.681315
+10544,Travel:Train Station,-71.0626173019,42.3563953931
+296142,Travel:Train Station,136.881687641,35.1705195615
+5568,Parks & Outdoors:Park,-73.9703035355,40.6687580231
+189961,Food:Coffee Shop,-46.6809082031,-23.5266905387
+6169,Arts & Entertainment:Stadiums:Football Stadiums,-111.62109375,29.5352295629
+5081,Food:Juice Bar,-73.986111,40.7473885
+15703,Travel:Light Rail,-76.6156609,39.307374
+5083,Home / Work / Other:Corporate / Office,-73.986257,40.754332
+65,Shops:Video Games,-73.99012,40.734421
+392896,Home / Work / Other:Home,-77.0852333307,38.8877425755
+3766,Travel:Airport,-97.040476799,32.896452699
+6318,Home / Work / Other:Corporate / Office,-74.004793,40.741964
+4316,Travel:Airport:Terminal,-93.2111406326,44.8831204424
+298846,Shops:Food & Drink:Grocery / Supermarket,136.717914641,35.3943217837
+104533,Shops:Design,-74.00969,40.71847
+54773,Travel:Taxi,34.770607,32.080656
+276,Nightlife:Bar,-73.987016,40.702476
+12600,Travel:Subway,-0.141769,51.5151238
+31668,Home / Work / Other:Home,-73.977856636,40.7317304305
+130960,Travel:Train Station,139.758152962,35.6664663999
+1257,Food:Coffee Shop,-122.410998344,37.7631240298
+5571,Home / Work / Other:Gym / Fitness:Gym,-73.9859366,40.6689779
+45953,Travel:Subway,4.91754055023,52.3463513376
+192630,Home / Work / Other:Home,-77.0183548,38.9005402
+52145,Travel:Train Station,5.29356479645,51.6906691143
+2111,Shops:Food & Drink:Grocery / Supermarket,-97.7535599,30.270649
+17678,Food:Vegetarian / Vegan,-87.6538610458,41.9099105427
+4766,Travel:Train Station,-0.143916606903,51.4963405122
+4498,Travel:Airport,-111.981925964,40.7866829344
+5250,Home / Work / Other:Corporate / Office,-122.400725,37.797552
+4429,Travel:Subway,-0.0824189186096,51.5177696474
+6307,Home / Work / Other:Gym / Fitness:Gym,-73.9719246,40.6764044
+1574,Food:Coffee Shop,-71.086199,42.362793
+3557,Arts & Entertainment:Museum,-73.963834,40.67124
+92866,Travel:Train Station,13.0003881454,55.6088508055
+225482,Parks & Outdoors:Plaza / Square,-84.5078337193,39.1023158088
+142841,College & Education:Other - College & Education,-122.402,37.7966
+5091,Home / Work / Other:Other - Buildings,-73.980345726,40.7610408353
+15869,Travel:Airport,-71.0212469101,42.3645689076
+6393,Arts & Entertainment:Movie Theater:Cineplex,-73.9821481705,40.7748868481
+3871,Nightlife:Music Venue:Rock Club,-73.9928,40.7697
+90,Travel:Airport,-79.6138429642,43.68252212
+624386,Home / Work / Other:Home,-96.7449666,43.5283488
+203709,Home / Work / Other:Home,-84.5921516418,33.9936864818
+126439,Shops:Food and Drink Shops:Grocery Stores,-46.6856254,-23.5819687
+6954,Travel:Airport:Terminal,-46.4832186699,-23.4264922004
+3377,Travel:Airport:Terminal,-73.8611268997,40.7685817446
+195132,Uncategorized,-78.4597878,38.0297744833
+39291,Nightlife:Bar,-77.0382,38.9105
+328871,Home / Work / Other:Home,-121.984,37.7673
+540,Food:French,-73.998182,40.722659
+14493,Home / Work / Other:Corporate / Office,-93.2550604,44.975861
+816469,Home / Work / Other:Home,-91.4870353,44.816977
+913634,Home / Work / Other:Home,-0.254434,51.504202
+416,Travel:Train Station:Train,-75.18201828,39.956267147
+159,Food:Coffee Shop,-73.9935266,40.7350707
+787970,Home / Work / Other:Corporate / Office,-0.182862281799,51.4762778792
+199495,Food:Cafés,3.17072510719,50.6915269114
+8543,Arts & Entertainment:Arcade,-73.950995,40.712017
+203708,Home / Work / Other:Home,-84.5944375545,33.9926496207
+4260,Nightlife:Beer Garden,-122.422108054,37.7701168394
+5326,Food:Bagels,-73.9754109,40.687333
+2118,Travel:Hotel,-97.7413707,30.2679601
+5520,Nightlife:Bar,-73.9883,40.7198
+4489,Travel:Train Station,-0.133380889893,51.5284503998
+270023,Travel:Train Station:Train,139.728530645,35.6196195894
+151543,Shops:Design,-79.3985432,43.6431887
+8157,Parks & Outdoors:Park,-73.9973187447,40.7010406488
+31313,Travel:Airport:Terminal,-94.7160315514,39.2975593507
+1554,Food:Bakery,-122.421772,37.767017
+3939,Food:Tacos,-73.997499,40.7214461
+42008,Food:Coffee Shop,-121.894485354,37.3489870695
+6145,Home / Work / Other:Gym / Fitness:Gym,-73.98424,40.761845
+2115,Nightlife:Music Venue:Rock Club,-97.736061,30.268549
+2741,Food:Coffee Shop,-122.342307,47.609767
+205452,Home / Work / Other:Home,-76.126701,43.037994
+52093,Travel:Train Station,4.9461111,52.3130556
+5426,Travel:Airport,-117.861757278,33.6795683709
+1344,Travel:Train Station:Train,-122.164964676,37.4430066109
+125600,Home / Work / Other:Other - Buildings,-118.2648658,34.0421206
+3154,Travel:Hotel,-73.973319,40.754778
+390157,Home / Work / Other:Other - Buildings,-97.7427005768,30.2677222876
+568158,Home / Work / Other:Corporate / Office:Tech Startup,-46.645364,-23.5784334
+4177,Nightlife:Bar,-122.408208847,37.7766171421
+17669,Home / Work / Other:Gym / Fitness:Gym,-87.6393985748,41.8786041903
+44301,Travel:Train Station,-0.169987678528,51.4648630259
+31234,Home / Work / Other:Corporate / Office,-77.0701629,38.894498
+390158,Home / Work / Other:Corporate / Office,-97.742808,30.267708
+393242,Home / Work / Other:Home,-89.2412137985,43.1806150658
+84524,Home / Work / Other:Corporate / Office,-0.1374283,51.5168454
+30210,Travel:Airport,-82.534608,27.978902
+20206,Shops:Food & Drink:Grocery / Supermarket,-84.3482637405,33.7562436995
+367404,Nightlife:Other - Nightlife,-73.970426,40.591602
+1156,Travel:Airport,-123.179483414,49.1948861386
+5640,Travel:Light Rail,-0.123724937439,51.5303993667
+557472,"Homes, Work, Others:Apartment Buildings",-76.1278295517,43.0360230329
+225484,Parks & Outdoors:Park,-84.5045721531,39.1010502757
+23475,Home / Work / Other:Other - Buildings,-73.9856028557,40.7484436586
+41537,Shops:Food & Drink:Grocery / Supermarket,-87.6699776,41.9063418
+3862,Home / Work / Other:Corporate / Office,-73.990396,40.755978
+4256,Nightlife:Bar,-122.431029081,37.7719274835
+4108,Arts & Entertainment:Movie Theater,-118.401074409,34.0181983067
+6492,Nightlife:Music Venue:Rock Club,-73.991697,40.673575
+355046,Travel:Hotel,-73.0960659,41.802877
+4458,Travel:Train Station,-0.0865602493286,51.5053234115
+463785,Home / Work / Other:Corporate / Office,12.5443747,55.6531039
+65254,Nightlife:Speakeasy / Secret Spot,-122.395828,37.78508
+280,Food:Italian,-73.9894911,40.741967
+4622,Shops:Food & Drink:Farmer's Market,-122.392287254,37.7953049782
+36,Food:Juice Bar,-73.98993,40.7410898
+520,Nightlife:Music Venue:Rock Club,-73.993542,40.720364
+19102,Food:Coffee Shop,-83.0048364401,39.9691694276
+8506,Home / Work / Other:Corporate / Office,-73.9984,40.7232
+3849,College & Education:Trade / Tech School,-74.0032625198,40.741339424
+430452,Travel:Train Station,141.149373,39.7989394
+2905,Travel:Plane / In-flight,-118.352108002,34.1963983168
+3600,Nightlife:Bar,-73.9518,40.715
+8519,Home / Work / Other:Corporate / Office,-73.981826,40.758408
+658560,Travel:Train Station:Train,139.541328549,35.5514714222
+211,Travel:Train Station,8.3101719,47.0501684
+5287,Shops:Flea Market / Fair,-73.9778713,40.6851019
+5580,Parks & Outdoors:Park,-71.0649776459,42.3554360652
+225479,Parks & Outdoors:Plaza / Square,-84.5140618086,39.1044784025
+1297,Food:Mexican,-122.4209758,37.7520658
+1081,Food:Coffee Shop,-122.077530026,37.4157986332
+1862,Food:Vegetarian / Vegan,-122.402082682,37.7841555902
+5583,Food:Mexican,-74.82092,40.143722
+2589,Arts & Entertainment:Music Venue:Rock Club,-73.987792,40.721014
+13329,Travel:Train Station,-90.365896225,38.7424023035
+3530,Home / Work / Other:Corporate / Office:Auditorium,-73.9832156897,40.7631252347
+3082,Travel:Train Station,-71.0609332,42.3657311
+83,Food:Breakfast / Brunch,-73.9879738,40.7457508
+213,Travel:Airport,-0.454216003418,51.4704772451
+4494,Travel:Subway,-122.396664619,37.7931684958
+252347,Nightlife:Brewery / Microbrewery,-81.0954372,32.0805986
+6638,Travel:Subway,-122.418293953,37.752408779
+245126,College & Education:Academic Building,-83.015077,40.004969
+214,Shops:Other - Shopping,-0.09006858,51.50507766
+6164,Food:American,-73.9813756943,40.7609108121
+20842,Home / Work / Other:Corporate / Office,-73.991364,40.730852
+43520,Travel:Train Station,-0.1247547,51.5085932
+908833,Home / Work / Other:Home,-86.0199451447,39.9609546816
+647131,Food:Deli / Bodega,36.2381136417,49.9939810169
+26568,Travel:Train Station,12.564496994,55.672647752
+413486,Home / Work / Other:Corporate / Office,-3.1681649,55.9763547
+305734,Travel:Train Station:Train,139.6413752,35.66615
+58472,Food:Coffee Shop,4.83807206154,52.3892533293
+7750,Food:Burgers,-73.954374,40.777715
+16230,Shops:Apparel,-73.9916684,40.7386752
+2101,Home / Work / Other:Corporate / Office,-122.025640011,37.4156239454
+45,Arts & Entertainment:Movie Theater,-73.989781,40.7231655
+80072,Travel:Train Station:Train,8.5149976,47.1731179
+398719,Home / Work / Other:Corporate / Office,174.75364,-36.845167
+252862,Shops:Design,-118.390697,34.023809
+20071,Parks & Outdoors:Park,-84.3766307831,33.7840340738
+4952,Shops:Furniture / Home,-74.0103650093,40.6711830174
+4015,Home / Work / Other:Government:Monument / Landmark,-73.9816761017,40.752881388
+1019,Travel:Light Rail,-122.386569,37.599995
+183524,Arts & Entertainment:Arcade,-73.9904854,40.7028691
+5607,Shops:Mall,-93.2422542572,44.8544693797
+45832,Travel:Boat / Ferry,-74.0033698082,40.7605044881
+159322,Home / Work / Other:Corporate / Office,-84.5146304369,39.1041349729
+190659,Travel:Highway / Traffic,127.031654,37.602466
+1079,Food:Coffee Shop,-122.3951528,37.7772513
+165967,Home / Work / Other:Other - Buildings,-96.80367,32.806728
+2894,Home / Work / Other:Gym / Fitness:Gym,-122.683837,45.528282
+112429,Travel:Subway,127.025757,37.512228
+11,Food:French,-74.0061378479,40.739534795
+145793,Travel:Train Station,-73.9352416992,40.6969411016
+1018,Food:Coffee Shop,-104.991637,39.7452309
+2516,Food:Pizza,-122.391058803,37.7808655635
+162,Travel:Airport:Plane,-74.1779708862,40.6951189996
+23004,Home / Work / Other:Corporate / Office,-73.9797383,40.7521601
+502,Nightlife:Music Venue:Rock Club,-73.9616,40.7193
+105449,Travel:Train Station,5.18125534058,52.2266165034
+201034,Home / Work / Other:Home,-96.7370653152,33.2110087559
+34692,Food:Coffee Shop,28.9930915833,41.0622036267
+5285,Parks & Outdoors:Park,-73.9749383926,40.6907262276
+18561,Travel:Train Station:Train,-74.0119314194,40.7126709271
+35067,Home / Work / Other:Corporate / Office,9.9858877,53.5427144
+66793,Travel Spots:Boats or Ferries,-74.0107297897,40.7766255213
+270791,Travel:Train Station:Train,135.494977,34.701909
+132709,Parks & Outdoors:Bridge,174.745359421,-36.8309281244
+3156,Nightlife:Bar,-73.966654,40.71278
+207713,Home / Work / Other:Corporate / Office,13.4482526779,52.5039187104
+20094,Shops:Drug Store / Pharmacy,-84.387456,33.780209
+10634,Home / Work / Other:Gym / Fitness:Gym,-73.9965677261,40.7233559796
+254,Food:Brewery,-73.99091,40.736934
+5923,Food:Cupcakes,-73.994647,40.731569
+970,Food:Coffee Shop,-122.398933768,37.7814803347
+477,Shops:Furniture / Home,-73.994722,40.740055
+12401,Parks & Outdoors:Beach,-122.511184216,37.76878109
+6574,Shops:Apparel:Women,-73.9891004562,40.7505731554
+39129,Shops:Food & Drink:Grocery / Supermarket,-122.1255361,47.6814677
+3890,Nightlife:Beer Garden,-74.007828,40.740667
+299,Travel:Hotel,-122.400484,37.785182
+50700,Food:Café,-46.6529273987,-23.5658359457
+194715,College & Education:University,-46.6402244568,-23.5897502137
+7957,Travel:Train Station,-73.9391791,40.8051347
+184808,Food:Sandwiches,-73.93362,40.705351
+3174,Food:Mexican,-73.999835,40.726568
+355048,Food:Wings,-73.0957,41.8024611
+5003,Parks & Outdoors:Park,-75.1718902588,39.9495231126
+5291,Home / Work / Other:Gym / Fitness:Gym,-73.9841651917,40.6795640299
+22444,Shops:Food & Drink:Grocery / Supermarket,-118.326444626,34.1000783359
+5563,Food:American,-73.9876,40.7024
+13619,Shops:Gas Station / Garage,-121.464354,38.525211
+12536,Nightlife:Pub,-122.428,37.7518
+12741,Arts & Entertainment:Comedy Club,-73.99763,40.747558
+5154,Parks & Outdoors:Other - Parks & Outdoor,-73.9520645142,40.8512155743
+380879,College & Education:Administrative Building,-77.0444799,38.89693
+300957,Travel:Subway,139.622714147,35.4661839368
+18986,Travel:Airport,-82.8854942322,39.9979995647
+64462,Travel:Train Station:Train,4.77939605713,51.5949883974
+7663,Shops:Drug Store / Pharmacy,-87.6283394,41.8831881
+10591,Food:German,-73.961692,40.716605
+619482,Uncategorized,-96.80367,32.806728
+234526,Home / Work / Other:Corporate / Office:Coworking Space,-74.0095281601,40.7106866038
+1674,Shops:Food & Drink:Farmer's Market,-122.341099977,47.6088972836
+100160,Home / Work / Other:Home,-74.007624,40.704857
+7590,Home / Work / Other:Gym / Fitness,-74.002017,40.737496
+3146,Food:Coffee Shop,-73.9491,40.7126
+118,Food:Bakery,-73.9925336838,40.7386405913
+36031,Uncategorized,-74.550688,40.825479
+113,Food:French,-73.986687,40.719347
+67554,Home / Work / Other:Home,-74.007162,40.707372
+612,Arts & Entertainment:Casino,-115.168669224,36.1022204151
+194641,Food:Café,-46.6992759705,-23.6217208706
+49597,Travel:Subway,-73.9398124,40.7502113
+859,Food:Café,-122.425815,37.627981
+1336,Travel:Light Rail,-122.413873672,37.7795681673
+23338,Food:Sandwiches,-73.9949595,40.7316664
+1712,Food:Breakfast / Brunch,-73.9930352569,40.7337872945
+2551,Home / Work / Other:Corporate / Office:Tech Startup,-122.3922675,37.7815449
+130989,Travel:Train Station,139.710109234,35.6467606058
+3733,Parks & Outdoors:Park,-73.9818477631,40.7263806601
+2598,Food:BBQ,-73.9885854721,40.7354538769
+176440,Home / Work / Other:Corporate / Office,-84.388234,33.797636
+11560,Food:Coffee Shop,-122.3939703,37.778936
+292929,Food:American,37.6161575317,55.7293575641
+3586,Home / Work / Other:Corporate / Office,-73.986011,40.757725
+26187,Travel:Subway,-73.9726387,40.7137136
+203710,Nightlife:Pub,-84.5925539732,33.9946727391
+7400,Food:Coffee Shop,-96.7906326,32.9622791
+637965,Home / Work / Other:Home,-73.9990139008,40.7183795932
+393206,Home / Work / Other:Corporate / Office:Coworking Space,-89.347565,43.127764
+6572,Nightlife:Sports Bar,-73.985563,40.732086
+270803,Travel:Train Station,139.623999,35.906295
+6023,Arts & Entertainment:Movie Theaters,-73.977009,40.742973
+134581,Home / Work / Other:Home,-122.450113,37.720484
+17854,Home / Work / Other:Corporate / Office:Conference room,-73.975475,40.749777
+244304,Travel:Train Station,139.035608768,35.2464427262
+638,Arts & Entertainment:Movie Theater:Cineplex,-122.432756,37.785131
+42539,Home / Work / Other:Corporate / Office:Coworking Space,-73.996176,40.726023
+382,Arts & Entertainment:Performing Arts,-73.9800882339,40.7600819084
+73702,Shops:Mall,100.534268618,13.745877804
+1085,Parks & Outdoors:Baseball Field,-87.6554703712,41.9482478902
+191704,Home / Work / Other:Home,-73.5814905167,43.3029764307
+3330,Travel:Train Station,-73.5428237915,41.0466052042
+8312,Food:American,-73.9887381,40.7215443
+6101,Arts & Entertainment:Casino,-115.176179409,36.1132633665
+800,Food:Thai,-122.39871,37.787539
+17939,Food:Fast Food,-87.6315021515,41.8928377048
+18193,Travel:Airport,-78.7911987305,35.8757328064
+3547,Food:Bakery,-74.0050969,40.7359283
+4360,Shops:Apparel,-0.061753,51.536704
+4839,Nightlife:Bar,-73.9926,40.7255
+323,Food:Asian,-73.9841973782,40.7290799901
+4758,Travel:Airport,4.76233720779,52.3093051403
+8455,Food:Mexican,-73.9901304245,40.7333076363
+1570,Shops:Food & Drink:Food Court,-71.0766077042,42.3672958185
+21807,Travel:Train Station:Train,-122.406277657,37.6545384093
+92031,Travel:Train Station,-0.1031183,51.5460765
+6724,Nightlife:Bar,-73.988822,40.731226
+585746,Uncategorized,-71.0815123,42.3851711
+44652,Home / Work / Other:Other - Buildings,-118.050633,33.717617
+115062,Colleges & Universities:College Academic Buildings,-76.1339664459,43.0419512774
+80,Parks & Outdoors:Park,-74.0068888664,40.7447453245
+483462,Uncategorized,5.84219455719,51.8244793737
+125607,Home / Work / Other:Corporate / Office,-118.494,34.0233
+2948,Travel:Hotel,-115.174655914,36.1161408665
+3153,Nightlife:Bar,-73.9499616623,40.7221200491
+515017,Home / Work / Other:Home,5.1367521286,52.2679472712
+3494,Home / Work / Other:Gym / Fitness,-74.0072,40.7299
+14278,Parks & Outdoors:Plaza / Square,-122.4122163,37.792033
+21243,Home / Work / Other:Corporate / Office,-74.0060234,40.7203792
+215160,Home / Work / Other:Corporate / Office,29.009141922,41.0786071045
+165951,Home / Work / Other:Home,-96.803748,32.801378
+32888,Travel:Airport,24.9678468704,60.3183635359
+73867,Home / Work / Other:Corporate / Office:Cafeteria,-117.15806365,32.9578963938
+7704,Home / Work / Other:Corporate / Office,-74.0056657791,40.7266408413
+4021,Arts & Entertainment:Art Gallery,-73.9733934402,40.7807364089
+18996,Food:Coffee Shop,-115.1680296,36.127179
+74979,Food:Deli / Bodega,-73.982387,40.761923
+22716,Shops:Drug Store / Pharmacy,-73.985685,40.768536
+5014,Nightlife:Bar,-73.9873,40.7199
+722994,Home / Work / Other:Home,-118.277193,34.0849959
+9899,Shops:Food & Drink:Grocery / Supermarket,-118.554493,34.273847
+893,Arts & Entertainment:Casino,-115.170063972,36.1221902063
+275688,Home / Work / Other:Corporate / Office,-46.6942119598,-23.5868398284
+39864,Home / Work / Other:Other - Buildings,-118.465898,34.030229
+225486,Home / Work / Other:Home,-84.508831501,39.1043889028
+13774,Arts & Entertainment:Stadium,-118.266845942,34.0431120007
+39392,Home / Work / Other:Home,-77.030039,38.935441
+667,Food:Café,-122.1443681,37.426864
+28072,Home / Work / Other:Gym / Fitness:Gym,-73.9901518822,40.6660033505
+3891,Nightlife:Bar,-74.0082836151,40.7405265341
+593,Home / Work / Other:Corporate / Office,-122.390398979,37.789709298
+367422,"Homes, Work, Others:Homes",-73.96689,40.58964
+7752,Home / Work / Other:Corporate / Office,-73.981785,40.7630994
+5317,Food:Café,-73.977949,40.679673
+20363,Shops:Gas Station / Garage,-121.215387,37.78743
+901,Arts & Entertainment:Casino,-115.176200867,36.0911412322
+3297,Food:Café,-122.394,37.7818
+25707,Home / Work / Other:Corporate / Office,-122.392,37.7813
+9108,Travel:Highway / Traffic,-74.0204715729,40.7271612005
+89096,College & Education:University,-84.2295598984,33.9554237663
+1544,Food:Coffee Shop,-122.4232912,37.7763245
+39218,Travel:Train Station:Train,6.79422855377,51.2198679367
+1741,Food:Mexican,-122.419513,37.760471
+102465,Home / Work / Other:Corporate / Office,-74.006411,40.705823
+297245,Home / Work / Other:Home,37.41928339,55.7342629023
+5274,Food:Falafel,-74.0004186,40.7302292
+64824,Home / Work / Other:Corporate / Office,-46.7027413,-23.6135186
+141703,Travel:Train Station,139.772830009,35.6987104678
+8490,Food:Pizza,-73.9839,40.7316
+142695,Food:Coffee Shop,-86.052243,39.905504
+31928,Home / Work / Other:Corporate / Office,-73.9936,40.7563
+849973,"Homes, Work, Others:Homes",4.95182991028,52.3236683218
+64502,Travel:Train Station,5.37420272827,52.1535564762
+338222,Home / Work / Other:Corporate / Office,-46.6856557131,-23.5912692912
+7712,Home / Work / Other:Gym / Fitness:Gym,-73.996147,40.724839
+10898,Travel:Train Station,8.66364240646,50.1071001395
+84764,Home / Work / Other:Home,-111.716085,33.305831
+31823,Food:Café,-73.9878988266,40.7517435369
+6081,Food:Bakery,-73.9801592,40.7603206
+2287,Home / Work / Other:Corporate / Office,-122.163290977,37.4464819764
+12665,Nightlife:Bar,-74.003074,40.7335849
+26306,Shops:Apparel,-73.9968642,40.7373152
+4166,Home / Work / Other:Corporate / Office,-74.0068,40.7308
+23436,Shops:Design,-122.393531799,37.78045006
+5592,Food:Sandwiches,-73.988557,40.7025241
+115118,"Homes, Work, Others:Medical Centers",-76.1347281933,43.0408064494
+59416,Travel:Train Station,12.5650119781,55.6720427264
+226001,Home / Work / Other:Home,-118.376355171,34.0894878078
+3375,Food:Bakery,-73.9983379841,40.7427782147
+2030,Home / Work / Other:Convention Center,-117.16157198,32.7064945086
+677,Nightlife:Whisky Bar,-122.403911948,37.7902837225
+5024,Food:Coffee Shop,-73.9951004,40.7224786
+1780,Home / Work / Other:Corporate / Office,-71.082503,42.360795
+11126,Nightlife:Bar,-73.994153738,40.7617234528
+2054,Arts & Entertainment:Theme Park,-117.918963432,33.8103378806
+305742,Travel:Train Station:Train,139.6270895,35.6120577039
+345697,Travel:Subway,10.0686693192,53.5723012445
+65809,Travel:Train Station,-74.4685506821,40.4775088166
+6909,Travel:Train Station,-0.126557350159,51.5312803792
+321580,Home / Work / Other:Corporate / Office,-79.3870662,43.6701945
+27832,Food:Coffee Shop,-71.1285645,42.3470365
+4134,Nightlife:Bar,-73.98014,40.676001
+9814,Parks & Outdoors:Plaza / Square,-118.3571425,34.0717333
+6659,Parks & Outdoors:Park,-74.0151071548,40.6929063803
+20374,Home / Work / Other:Other - Buildings,-122.390549183,37.7895397253
+1319,Food:Bakery,-122.402037,37.79195
+842521,"Homes, Work, Others:Homes",-87.626781,41.900752
+40625,Home / Work / Other:Corporate / Office:Tech Startup,-122.39310801,37.7819891071
+312234,Travel:Train Station,135.6311158,34.7845796
+8663,Arts & Entertainment:Music Venue:Rock Club,-73.9891,40.7272
+15570,Food:Coffee Shop,-77.0595645905,38.8614986231
+1664,Food:Coffee Shop,-122.4084645,37.7770998
+18893,Home / Work / Other:Corporate / Office,-122.4212424,37.7786871
+19342,Shops:Department Store,-121.919145584,37.2642170274
+261997,Travel:Train Station,-73.6230272055,41.4128053093
+51922,Home / Work / Other:Corporate / Office,-122.082224,37.387849
+366390,Uncategorized,98.972147,18.806891
+587784,Home / Work / Other:Home,-83.0342394,40.0066969
+15660,Food:Wings,-77.0242881775,38.9167483178
+644,Arts & Entertainment:Art Gallery,-122.466412783,37.7700871564
+3575,Arts & Entertainment:Music Venue:Rock Club,-73.986806,40.722036
+22962,Travel:Train Station,-73.9818906784,40.7679967047
+170745,Home / Work / Other:Other - Buildings,-0.0733455,51.5203204
+5229,Food:Coffee Shop,-73.9805113,40.7781536
+526706,Home / Work / Other:Home,-122.436,37.7733
+7722,Food:Breakfast / Brunch,-73.988401,40.7309849
+3924,Parks & Outdoors:Other - Parks & Outdoor,-73.9784574509,40.7541167471
+26388,Home / Work / Other:Corporate / Office,-73.9906663,40.7028043
+9197,Shops:Mall,-74.0028762817,40.705660471
+187020,Uncategorized,-72.6841306686,41.6377050075
+8501,Shops:Sports & Outdoors,-77.0077443123,38.8728760902
+192633,Home / Work / Other:Corporate / Office:Coworking Space,-77.045306,38.902073
+7851,Food:Café,-105.275413,40.019137
+1294,Food:Ice Cream,-122.425799,37.761529
+15598,Travel:Subway,-73.9108228683,40.7761217982
+2613,Parks & Outdoors:Playground,-122.4100923,37.8007246
+8786,Parks & Outdoors:Plaza / Square,-73.9841048,40.7728499
+1539,Food:Café,-122.3937,37.7955
+13370,Food:Hot Dogs,-122.431148,37.771831
+1146,Food:Sandwiches,-122.3889794,37.7829086
+151423,Home / Work / Other:Corporate / Office,-79.3163047,43.6849125
+36288,Uncategorized,-74.000198,40.665539
+604069,Home / Work / Other:Home,-81.0904453,32.0690128
+44777,Shops:Food & Drink:Grocery / Supermarket,-77.6128721237,43.0676650697
+47539,Food:Coffee Shop,-73.9444443583,40.7154277372
+298760,Travel:Train Station:Train,139.957564473,35.7753423391
+5414,Food:Mexican,-97.7395033836,30.2672589727
+6053,Shops:Food & Drink:Grocery / Supermarket,-73.9925001,40.6896897
+28476,Home / Work / Other:Gym / Fitness:Gym,-122.4028475,37.8032445
+17653,Home / Work / Other:Corporate / Office,-122.401,37.7908
+13923,Shops:Mall,-117.166442871,32.7683133245
+91271,Uncategorized,-0.1349259,51.5180931
+552,Home / Work / Other:Corporate / Office:Tech Startup,-74.0075540543,40.7401526014
+64308,Travel:Train Station,4.32183265686,52.0697991797
+41901,Travel:Train Station,2.32476711273,48.8771632587
+2904,Shops:Furniture / Home,-122.556052208,45.5717850827
+636504,Home / Work / Other:Corporate / Office:Coworking Space,-74.009485,40.710703
+4843,Nightlife:Bar,-73.987931,40.724332
+169870,Food:Eastern European Restaurants,30.54309,50.423526
+274134,Home / Work / Other:Home,-6.23525619507,53.341706159
+118987,Home / Work / Other:Corporate / Office,-73.991461,40.749858
+6294,Home / Work / Other:Corporate / Office:Conference room,-73.9894911,40.741967
+9427,Travel:Train Station,6.95833683014,50.9433135495
+115238,College & Education:Academic Building:Science,-76.1305224895,43.0376894293
+2113,Nightlife:Bar,-97.7456724644,30.2686859757
+10046,Arts & Entertainment:Movie Theater,-118.327914476,34.0971287582
+15331,Shops:Drug Store / Pharmacy,-122.408844,37.788991
+40292,Shops:Mall,-79.3804907799,43.654607021
+16464,Parks & Outdoors:Park,-122.434773445,37.776311857
+3548,Home / Work / Other:Event Space,-73.995756,40.740543
+6693,Travel:Plane / In-flight,-74.7384333333,40.5813166667
+321496,Home / Work / Other:Corporate / Office,-79.3963176,43.6436665
+4314,Nightlife:Bar,-122.415,37.7604
+5339,Food:Café,-73.9629,40.6885
+51880,Nightlife:Bar,-0.0758148,51.5238742
+16438,Travel:Subway,-71.1189651489,42.3733199694
+115052,Food:Coffee Shop,-76.1733841896,43.069530468
+402,Food:American,-74.0073823929,40.7411768468
+6651,Shops:Food & Drink:Grocery / Supermarket,-118.443635,34.063049
+662708,College & Education:University,-84.361776,33.813046
+3128,Nightlife:Bar,-73.990623951,40.727486423
+769,Food:Gastropub,-122.440014,37.800052
+3255,Food:American,-122.395,37.7797
+26609,Travel:Train Station,12.5713473558,55.6830557519
+638587,Home / Work / Other:Home,-105.099292,40.577244
+604050,Food:Coffee Shop,-81.0984188318,32.0769883591
+186317,Home / Work / Other:Corporate / Office,-73.990762,40.748216
+3748,Arts & Entertainment:Music Venue:Rock Club,-97.736121,30.270023
+17590,Shops:Department Store,-84.3993973732,33.7930488469
+369936,"Homes, Work, Others:Convention Centers:Meeting Rooms",8.51565957069,47.359902992
+3706,College & Education:Other - College & Education,-73.9935207367,40.7293076394
+4181,Travel:Subway,-122.419698,37.7650367
+1891,Nightlife:Lounge,-97.7451896667,30.2667771228
+49312,Travel:Subway,-0.1049539,51.5200337
+14492,Arts & Entertainment:Stadium:Baseball,-93.2774448395,44.9818601678
+241812,Travel:Subway,-79.398601,43.706446
+26975,Nightlife:Cocktails / Mixology,-71.0963562,42.3487352
+3668,Home / Work / Other:Other - Buildings,-73.979,40.759
+2559,Food:Breakfast / Brunch,-122.4207968,37.7537213
+15603,Travel:Train Station,-77.027721405,38.8983142614
+649463,Nightlife:Bar,-95.2358892,38.9700099
+6332,Shops:Drug Store / Pharmacy,-73.9776738,40.6844222
+468815,Home / Work / Other:Corporate / Office,12.5373818,55.6968883
+23371,Shops:Bank / Financial,-73.992075,40.7350489
+14,Food:American,-74.0015459061,40.7336653479
+8305,Nightlife:Lounge,-73.9857,40.733
+854968,Home / Work / Other:Home,-71.0304790735,42.4119380853
+7556,Shops:Mall,-71.0813498497,42.3472375744
+587765,College & Education:University,-83.0146496,40.0053503
+428,Home / Work / Other:Corporate / Office,-74.0077,40.7452
+70581,Home / Work / Other:Corporate / Office,-0.140016674995,51.51695013
+54403,Arts & Entertainment:Theme Park,-71.0541263,42.3582182
+3740,Shops:Food & Drink:Grocery / Supermarket,-73.9663576,40.8044599
+63152,Food:Café,126.9822227,37.4776538
+10166,Parks & Outdoors:Plaza / Square,-73.9818777,40.7680311
+32773,Shops:Furniture / Home,9.078977,45.428953
+177635,Travel:Train Station:Train,135.758657455,34.9856008588
+3732,Nightlife:Pub,-73.999835,40.728495
+8341,Food:Diner,-73.987,40.7289
+135870,Travel:Light Rail,9.9888041,53.5579809
+126502,Shops:Mall,-46.698975563,-23.6233722794
+3278,Food:Asian,-73.990855,40.737009
+256,Food:Sandwiches,-73.987351656,40.7223070664
+2621,Nightlife:Lounge,-122.4145882,37.7865666
+618,Food:Mexican,-122.391646,37.780423
+836386,Home / Work / Other:Home,-79.3850206,43.6550545
+6120,Travel:Airport,-86.6691738367,36.1315146366
+2888,Arts & Entertainment:Casino,-115.17478466,36.1074387065
+4987,Nightlife:Dive Bar,-73.961688,40.71632
+38090,Food:Coffee Shop,-81.424139,28.365972
+579031,Travel:Subway,139.9244281,35.6910049
+12685,Travel:Airport,100.751409531,13.6946502752
+18386,Travel:Train Station,-73.9869976044,40.7560022511
+63356,Uncategorized,17.4443272,49.45042005
+168007,Home / Work / Other:Corporate / Office,-122.400158,37.789952
+442172,Home / Work / Other:Home,-84.397144,33.802936
+219900,Home / Work / Other:Corporate / Office,-73.9999,40.7415
+638586,Home / Work / Other:Home,-105.099292,40.577244
+6612,Food:Bakery,-74.004793,40.741964
+7545,Travel:Airport,-81.8382740021,41.411352948
+509,Nightlife:Bar,-74.005478,40.740441
+3176,Food:American,-73.9516756,40.7234437
+177948,Travel:Train Station,-73.5506343842,40.663777557
+28814,Food:Coffee Shop,-121.994414,37.323857
+465269,"Homes, Work, Others:Homes",5.271186,52.081229
+15037,Home / Work / Other:Corporate / Office:Cafeteria,-122.024974823,37.4160840978
+29704,Travel:Train Station,-74.0630435944,40.7322670098
+494,Nightlife:Hotel Bar,-73.9909243584,40.7279417318
+70211,Home / Work / Other:Home,-0.00832557678223,51.5004615118
+5028,Nightlife:Wine Bar,-73.990015,40.720587
+21236,Travel:Subway,-122.076,37.6919
+9387,Food:Café,13.4015208,52.5295448
+2064,Home / Work / Other:Corporate / Office,-117.64734149,33.6714457197
+2310,Travel:Airport,8.57345581055,50.0457857401
+8907,Arts & Entertainment:Museum:Art,2.33382225037,48.8616656782
+149441,Home / Work / Other:Corporate / Office,-93.273003,44.981086
+3601,Nightlife:Bar,-73.9552295208,40.7224046404
+3915,Arts & Entertainment:Other - Entertainment,-73.9906854,40.7033507
+2586,Food:Ramen / Noodles,-73.9909243584,40.730673519
+7908,Nightlife:Brewery / Microbrewery,-122.399681,37.785504
+274,Food:Gastropub,-74.006651,40.735611
+97959,Parks & Outdoors:Other - Parks & Outdoor,-0.103018283844,51.5423449781
+12836,Food:Tea Room,-105.275947,40.018912
+366022,Food:Korean,141.136505,39.701716
+17671,Shops:Technology,-87.6239490509,41.8947863792
+7375,Food:Fast Food,-104.793913,37.653985
+970016,Shops:Hardware Stores,98.6862802505,18.4337312287
+799,Arts & Entertainment:Art Gallery,-122.399384,37.787429
+6144,Shops:Food & Drink:Grocery / Supermarket,-74.0171027184,40.6742263418
+5334,Food:Coffee Shop,-73.9874,40.7024
+58185,Travel:Light Rail,9.99352455139,53.5524449598
+48352,Food:Food Court,29.0114808083,41.0783644793
+1063,Food:Café,-122.161527,37.444611
+31195,Food:Coffee Shop,-80.194788,25.764528
+6598,Arts & Entertainment:Music Venue,-73.9769124985,40.6630288273
+178576,Home / Work / Other:Home,-73.9728,40.748
+6313,Food:Chinese,-73.9919,40.7183
+8619,Home / Work / Other:Corporate / Office,-74.014699,40.713968
+29319,Shops:Drug Store / Pharmacy,-73.9865552,40.7259256
+10768,Food:Fast Food,-2.23086833954,53.4769877769
+298881,Travel:Subway,139.712319374,35.6652286652
+3127,Food:Coffee Shop,-73.957,40.7186
+18582,Parks & Outdoors:Plaza / Square,-118.4977025,34.0169666
+3346,Food:French,-74.006635,40.731459
+37587,Uncategorized,-121.516500413,38.6135570724
+286212,Home / Work / Other:Corporate / Office,-74.005301,40.727438
+582893,Home / Work / Other:Corporate / Office,-0.1424619,51.5150362
+25193,Travel:Airport,-6.24403238297,53.4274734647
+29893,Food:Bagels,-73.9579331875,40.7175420275
+1480,Travel:Train Station,-71.0743761063,42.3473168686
+145799,Food:Coffee Shop,-73.980044,40.660356
+35973,Shops:Drug Store / Pharmacy,-74.478962,40.893286
+2711,Food:American,-73.99218,40.725059
+70882,College & Education:Stadium:Basketball,-76.1348944,43.0381611
+115061,Colleges & Universities:College Academic Buildings:College Technology Buildings,-76.1348944,43.0381611
+10895,Travel:Subway,13.36843,52.52522
+167783,Home / Work / Other:Corporate / Office,-87.622297,41.884515
+1331,Travel:Subway,-122.266974449,37.8293870795
+3430,Shops:Technology,-71.082369,42.348821
+4895,Nightlife:Pub,-97.7459353209,30.2661099422
+29971,Home / Work / Other:Other - Buildings,-84.34541,33.7401559
+780206,Home / Work / Other:Other - Buildings,174.760894775,-36.802275044
+3115,Food:BBQ,-73.9563989639,40.71411847
+384,Food:New American,-73.9985,40.6771
+785,Food:Coffee Shop,-121.9417834,37.4064445
+412273,Uncategorized,13.449374,52.504118
+98315,Shops:Drug Store / Pharmacy,-82.8803899884,40.0637794835
+135816,Shops:Mall,-79.5559283,43.6126603
+16371,Home / Work / Other:Gym / Fitness:Gym,-122.420986,37.786944
+6034,Shops:Food & Drink:Farmer's Market,-73.9702606201,40.6724687168
+520868,Home / Work / Other:Corporate / Office,-73.997658,40.722766
+3650,Home / Work / Other:Other - Buildings,-74.007919,40.728511
+625249,Home / Work / Other:Corporate / Office,-104.986795,39.755704
+6129,Food:Taco Places,-73.9949449897,40.7258684255
+2588,Home / Work / Other:Corporate / Office:Tech Startup,-122.387866974,37.7826547457
+6991,Nightlife:Hotel Bar,-74.004142,40.722039
+65676,"Homes, Work, Others:Offices",-74.000272,40.71954
+803539,Home / Work / Other:Corporate / Office,6.80354118347,51.231102121
+48970,Food:Mexican,-87.6551429,41.9398794
+48365,Travel:Airport,6.76513195038,51.2786960143
+9316,Food:Caribbean,-73.994193,40.722933
+3991,Shops:Bookstore,-73.9896583557,40.7369822182
+52228,Shops:Food & Drink:Grocery / Supermarket,-87.677958,41.8955119
+150967,Parks & Outdoors:Plaza / Square,8.310878,47.056148
+5308,Food:Coffee Shop,-73.94926,40.711672
+54628,Nightlife:Speakeasy / Secret Spot,-71.0582,42.3562
+4990,Nightlife:Bar,-73.995607,40.690817
+11014,Food:Sandwiches,-87.6206478,41.893376
+178080,Home / Work / Other:Home,-73.972642,40.743355
+803537,Arts & Entertainment:Art Gallery,6.8309211731,51.2080664033
+3007,Shops:Gas Station / Garage,-119.210819,34.254015
+67616,Uncategorized,-122.385,37.6742
+1578,Food:Ice Cream,-71.0994064808,42.3635225034
+64826,Shops:Bookstore,-46.6600433,-23.5587724
