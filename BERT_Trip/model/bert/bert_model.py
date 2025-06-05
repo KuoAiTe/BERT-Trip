@@ -41,6 +41,7 @@ class BERT_FOR_POI(L.LightningModule):
         outputs = self.forward(**batch)
         loss = self.compute_mlm_loss(outputs.mlm_head_logits, batch['labels'])
         return loss
+    
     def compute_mlm_loss(self, prediction_scores, labels):
         masked_lm_loss = self.mlm_loss_fct(prediction_scores.view(-1, self.config.vocab_size), labels.view(-1))
         return masked_lm_loss

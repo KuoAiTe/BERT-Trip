@@ -1,6 +1,6 @@
 import lightning as L
 from pathlib import Path
-from model.bert import BERT_FOR_POI, SiamBERT
+from model.bert import BERT_FOR_POI, BERT_Trip
 from transformers import AutoConfig
 from utils import MLMDataModule
 from utils.util import get_data_dir, wccount
@@ -60,7 +60,7 @@ def train(
     trainer.fit(model, datamodule = data_module)
 
 if __name__ == "__main__":
-    #datasets = [ 'melb', 'edin', 'toro', 'glas', 'osaka']
+    
     datasets = [
     #('osaka', 47 * 5),
     #('melb', 442 * 2),
@@ -78,9 +78,8 @@ if __name__ == "__main__":
     #('weeplaces_poi_50_length_3-15-numtraj_2134', 2134),
     ('weeplaces_poi_25_length_3-15-numtraj_765', 765),# * 3
     ]
-    #models = [ 'bert_temporal', 'bert', 'bert_siam', 'bert_temporal', 'bert_trip']
     for dataset_name, size in datasets:
-        for model in [BERT_FOR_POI, SiamBERT]:
+        for model in [BERT_FOR_POI, BERT_Trip]:
             
             dataset_dir = Path().cwd() / 'data'
             train(dataset_dir, dataset_name, model)
