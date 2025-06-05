@@ -12,25 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import random
-import warnings
 from dataclasses import dataclass
-from typing import Any, Callable, Dict, List, NewType, Optional, Tuple, Union
-import numpy as np
+from typing import Dict, List, Optional, Tuple, Union
 import torch
-import datetime
-from torch.nn.utils.rnn import pad_sequence
-
-from transformers.file_utils import PaddingStrategy
-from transformers.modeling_utils import PreTrainedModel
-from transformers.tokenization_utils_base import BatchEncoding, PreTrainedTokenizerBase
-
-from model.bert.bert_model import BertTripConfig
-
-from util import dataset_metadata
-import math
-import pandas as pd
-from sklearn.neighbors import BallTree
+from transformers.tokenization_utils_base import PreTrainedTokenizerBase
 
 @dataclass
 class DataCollatorForLanguageModeling:
@@ -59,10 +44,18 @@ class DataCollatorForLanguageModeling:
     """
     dataset: str
     tokenizer: PreTrainedTokenizerBase
+    num_user_tokens: int
+    num_time_tokens: int
     mlm: bool = True
     mlm_probability: float = 0.15
     pad_to_multiple_of: Optional[int] = None
-    config: BertTripConfig = None
+    user_token_len: int = 1
+    time_token_len: int = 2
+    use_data_agumentation: bool = True
+    add_user_token: bool = True
+    add_time_token: bool = True
+    USER_TOKEN_LEN: int = 1
+    
     def __post_init__(self):
         if self.mlm and self.tokenizer.mask_token is None:
             raise ValueError(
@@ -70,9 +63,10 @@ class DataCollatorForLanguageModeling:
                 "You should pass `mlm=False` to train on causal language modeling instead."
             )
         self.user_start_pos = 1
-        self.user_end_pos = self.user_start_pos + self.config.num_user_token
+        
+        self.user_end_pos = self.user_start_pos + self.user_token_len
         self.time_start_pos = self.user_end_pos
-        self.time_end_pos = self.time_start_pos + self.config.num_time_token
+        self.time_end_pos = self.time_start_pos + self.time_token_len
         self.poi_type_id = 1
         self.user_type_id = 2
         self.time_type_id = 3
@@ -98,7 +92,7 @@ class DataCollatorForLanguageModeling:
             batch["input_ids"], batch['aug_input_ids'], special_tokens_mask=special_tokens_mask
         )
 
-        if not self.config.use_data_agumentation:
+        if not self.use_data_agumentation:
             if 'aug_input_ids' in batch:
                 del batch['aug_input_ids']
             if 'aug_labels' in batch:
@@ -122,23 +116,20 @@ class DataCollatorForLanguageModeling:
         """
         Prepare masked tokens inputs/labels for masked language modeling: 80% MASK, 10% random, 10% original.
         """
-        config = self.config
-        USER_NUM = dataset_metadata[self.dataset]['USER_NUM']
-        TIME_NUM = dataset_metadata[self.dataset]['TIME_NUM']
-        TIME_START_INDEX = len(self.tokenizer) - USER_NUM - TIME_NUM
-        USER_START_INDEX = TIME_START_INDEX + TIME_NUM
+        TIME_START_INDEX = len(self.tokenizer) - self.num_user_tokens - self.num_time_tokens
+        USER_START_INDEX = TIME_START_INDEX + self.num_time_tokens
 
         labels = inputs.clone()
         special_tokens_mask = [self.tokenizer.get_special_tokens_mask(val, already_has_special_tokens=True) for val in labels.tolist()]
         special_tokens_mask = torch.tensor(special_tokens_mask, dtype=torch.bool)
 
         input_types = torch.full(labels.shape, self.poi_type_id)
-        if config.add_user_token:
+        if self.add_user_token:
             input_types[:, self.user_start_pos:self.user_end_pos] = self.user_type_id
-        if config.add_time_token:
+        if self.add_time_token:
             input_types[:, self.time_start_pos:self.time_end_pos] = self.time_type_id
 
-        if config.use_data_agumentation:
+        if self.use_data_agumentation:
             masked_indices = self.data_agumentation(labels, special_tokens_mask, -1)
         else:
             masked_indices = self.data_agumentation(labels, special_tokens_mask, 0.15)
@@ -153,31 +144,31 @@ class DataCollatorForLanguageModeling:
         inputs[indices_random] = inputs_random_words[indices_random]
 
         # user
-        if config.add_user_token:
+        if self.add_user_token:
             is_user = (input_types == self.user_type_id)
             labels[is_user] = self.ignore_mask_id
             user_indices_random = torch.bernoulli(torch.full(labels.shape, 1.0)).bool() & masked_indices & is_user
-            inputs_random_words = torch.randint(USER_START_INDEX, USER_START_INDEX + USER_NUM, labels.shape, dtype=torch.long)
+            inputs_random_words = torch.randint(USER_START_INDEX, USER_START_INDEX + self.num_user_tokens, labels.shape, dtype=torch.long)
             inputs[user_indices_random] = inputs_random_words[user_indices_random]
 
         # time
-        if config.add_time_token:
+        if self.add_time_token:
             is_time = (input_types == self.time_type_id)
             labels[is_time] = self.ignore_mask_id
             indices_random = torch.bernoulli(torch.full(labels.shape, 1.0)).bool() & masked_indices & is_time
-            inputs_random_words = torch.randint(TIME_START_INDEX, TIME_START_INDEX + TIME_NUM, labels.shape, dtype=torch.long)
+            inputs_random_words = torch.randint(TIME_START_INDEX, TIME_START_INDEX + self.num_time_tokens, labels.shape, dtype=torch.long)
             inputs[indices_random] = inputs_random_words[indices_random]
 
 
-        if config.use_data_agumentation:
+        if self.use_data_agumentation:
             aug_inputs = aug_inputs.clone()
             aug_labels = aug_inputs.clone()
             aug_special_tokens_mask = [self.tokenizer.get_special_tokens_mask(val, already_has_special_tokens=True) for val in aug_labels.tolist()]
             aug_special_tokens_mask = torch.tensor(aug_special_tokens_mask, dtype=torch.bool)
             aug_input_types = torch.full(aug_labels.shape, self.poi_type_id)
-            if config.add_user_token:
+            if self.add_user_token:
                 aug_input_types[:, self.user_start_pos:self.user_end_pos] = self.user_type_id
-            if config.add_time_token:
+            if self.add_time_token:
                 aug_input_types[:, self.time_start_pos:self.time_end_pos] = self.time_type_id
 
             aug_masked_indices = self.data_agumentation(aug_labels, aug_special_tokens_mask, -1)
@@ -193,19 +184,19 @@ class DataCollatorForLanguageModeling:
             aug_inputs[aug_indices_random] = aug_inputs_random_words[aug_indices_random]
 
             #user
-            if config.add_user_token:
+            if self.add_user_token:
                 aug_is_user = (aug_input_types == self.user_type_id)
                 aug_labels[aug_is_user] = self.ignore_mask_id
                 aug_indices_random = torch.bernoulli(torch.full(aug_labels.shape, 1.0)).bool() & aug_masked_indices & aug_is_user
-                aug_inputs_random_words = torch.randint(USER_START_INDEX, USER_START_INDEX + USER_NUM, aug_labels.shape, dtype=torch.long)
+                aug_inputs_random_words = torch.randint(USER_START_INDEX, USER_START_INDEX + self.num_user_tokens, aug_labels.shape, dtype=torch.long)
                 aug_inputs[aug_indices_random] = aug_inputs_random_words[aug_indices_random]
 
             #time
-            if config.add_time_token:
+            if self.add_time_token:
                 aug_is_time = (aug_input_types == self.time_type_id)
                 aug_labels[aug_is_time] = self.ignore_mask_id
                 aug_indices_random = torch.bernoulli(torch.full(aug_labels.shape, 1.0)).bool() & aug_masked_indices & aug_is_time
-                aug_inputs_random_words = torch.randint(TIME_START_INDEX, TIME_START_INDEX + TIME_NUM, aug_labels.shape, dtype=torch.long)
+                aug_inputs_random_words = torch.randint(TIME_START_INDEX, TIME_START_INDEX + self.num_time_tokens, aug_labels.shape, dtype=torch.long)
                 aug_inputs[aug_indices_random] = aug_inputs_random_words[aug_indices_random]
         else:
             aug_inputs = None

@@ -4,28 +4,10 @@ import numpy as np
 import subprocess
 from pathlib import Path
 from datetime import datetime
-
 from nltk.translate.bleu_score import sentence_bleu
 from nltk.translate.bleu_score import SmoothingFunction
+from sklearn.model_selection import train_test_split
 
-dataset_metadata = {
-    'edin': {'USER_NUM':386, 'TIME_NUM': 48},
-    'glas': {'USER_NUM':90, 'TIME_NUM': 48},
-    'melb': {'USER_NUM':265, 'TIME_NUM': 48},
-    'osaka': {'USER_NUM':40, 'TIME_NUM': 48},
-    'toro': {'USER_NUM':196, 'TIME_NUM': 48},
-    #new one
-    'weeplaces_poi_25_length_3-15-numtraj_765': {'USER_NUM':400, 'TIME_NUM': 48},
-    'weeplaces_poi_50_length_3-15-numtraj_2134': {'USER_NUM':883, 'TIME_NUM': 48},
-    'weeplaces_poi_100_length_3-15-numtraj_4497': {'USER_NUM':1555, 'TIME_NUM': 48},
-    'weeplaces_poi_200_length_3-15-numtraj_7790': {'USER_NUM':2537, 'TIME_NUM': 48},
-    'weeplaces_poi_400_length_3-15-numtraj_12288': {'USER_NUM':3357, 'TIME_NUM': 48},
-    'weeplaces_poi_801_length_3-15-numtraj_19385': {'USER_NUM':4230, 'TIME_NUM': 48},
-    'weeplaces_poi_1600_length_3-15-numtraj_31545': {'USER_NUM':5276, 'TIME_NUM': 48},
-    'weeplaces_poi_3200_length_3-15-numtraj_53901': {'USER_NUM':6531, 'TIME_NUM': 48},
-    'weeplaces_poi_6400_length_3-15-numtraj_90248': {'USER_NUM':7819, 'TIME_NUM': 48},
-    'weeplaces_poi_12800_length_3-15-numtraj_147287': {'USER_NUM':9326, 'TIME_NUM': 48},
-}
 file_max_sequence_length = {
     '': 0,
     'weeplaces_poi_800_length_3-15-numtraj_14374':17,
@@ -286,45 +268,52 @@ def get_model(model_name):
 
     return base_model, evaluator, config
 
-def get_kfold_data(df, shuffle = True, cold_start_user = True, fixed_random_state = None):
+def split_trajectories(df, test_size=0.2, val_size=0.1, random_state=None):
+    """Splits the dataframe into train, val, test."""
+    train_data, test_data = train_test_split(df,test_size=test_size, random_state=random_state)
+    train_data, val_data = train_test_split(train_data, test_size=val_size, random_state=random_state)
+    return train_data, val_data, test_data
+
+def all_pois_in_train(train_trajectories, test_trajectories):
+    """Ensures all POIs in test are present in train."""
+    train_pois = {poi for traj in train_trajectories for poi in traj.split(',')}
+    for trajectory in test_trajectories:
+        if any(poi not in train_pois for poi in trajectory.split(',')):
+            return False
+    return True
+
+def get_kfold_data(df, shuffle=True, cold_start_user=True, fixed_random_state=None, test_size=0.2, val_size=0.1):
+    """
+    Returns train, val, and test splits where all POIs in test are included in train.
+    Useful for trajectory data to avoid cold-start POIs.
+    """
     base_random_state = int(time.time())
-    from sklearn.model_selection import train_test_split
     offset = 0
-    while True:
-        if offset >= 50:
-            break
-        if fixed_random_state == None:
-            random_state = base_random_state + offset
+    max_attempts = 50
+
+    while offset < max_attempts:
+        random_state = fixed_random_state if fixed_random_state is not None else base_random_state + offset
+        train_data, val_data, test_data = split_trajectories(df, test_size=test_size, val_size=val_size, random_state=random_state)
+
+        if cold_start_user:
+            if all_pois_in_train(train_data.iloc[:, 1].values, test_data.iloc[:, 1].values):
+                return train_data, val_data, test_data, random_state
         else:
-            random_state = fixed_random_state
-        is_all_pois_in_train_set = True
-        train_data, test_data = train_test_split(df, test_size = 0.2, random_state = random_state)
-        train_trajectories = train_data.iloc[:, 1].values
-        test_trajectories = test_data.iloc[:, 1].values
-        train_pois = set()
-        for trajectory in train_trajectories:
-            pois = trajectory.split(',')
-            for poi in pois:
-                train_pois.add(poi)
-        for trajectory in test_trajectories:
-            pois = trajectory.split(',')
-            for poi in pois:
-                if poi not in train_pois:
-                    is_all_pois_in_train_set = False
+            return train_data, val_data, test_data, random_state
 
         offset += 1
-        if is_all_pois_in_train_set:
-            break
-        else:
-            pass
-            #assert(fixed_random_state == None)
-    return train_data, test_data, random_state
+
+    raise RuntimeError("Failed to find a split with all test POIs in train after 50 attempts.")
+
 
 def get_root_dir():
-    root_dir = Path(__file__).resolve().parent.parent
+    # Not a good way but whatever
+    root_dir = Path(__file__).resolve().parent.parent.parent
     return root_dir
+
 def get_data_dir():
     return get_root_dir() / 'BERT_Trip' / 'data'
+
 def get_dataset_dir(dataset):
     return get_data_dir() / dataset
 

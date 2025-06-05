@@ -1,4 +1,10 @@
+.Identifier
+.DS_Store                                                                                                                                               Zone.Identifier   
+
+
 results/*
+lightning_logs/
+
 **/pretrain_data.csv
 **/test.csv
 **/train.csv

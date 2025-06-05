@@ -1,6 +1,9 @@
 ## Code
 Our implementation is based on [Hugging Face](https://huggingface.co/).
 
+This repository has been refactored after nearly four years. The refactoring follows the original logic as closely as possible, but if you notice any discrepancies in the experimental results, please refer back to the previous commit. The main goal of the refactor was to simplify the workflow using PyTorch Lightning.
+
+
 ## Baselines
 All of the investigated baselines were obtained from authors' Github repositories. The baselines are listed in the following:
 - **Markov, Rank+Markov, MarkovPath, Rank+MarkovPath** [https://github.com/computationalmedia/tour-cikm16](https://github.com/computationalmedia/tour-cikm16)
@@ -89,7 +92,7 @@ In lines 78-80 and lines 81-83, the time budget is calculated by summing up the 
 
 ### Run BERT-Trip
 ```
-conda create --name trip_pytorch python=3.9.12
+conda create --name trip_pytorch python=3.12.11
 conda activate trip_pytorch
 pip install -r requirements.txt
 python3 run.py
