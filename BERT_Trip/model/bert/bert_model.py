@@ -17,10 +17,9 @@
 
 import math
 import os
-import warnings
 from dataclasses import dataclass
 from typing import Optional, Tuple
-import numpy as np
+from pathlib import Path
 import torch
 import torch.utils.checkpoint
 from packaging import version
@@ -39,11 +38,6 @@ from transformers.modeling_outputs import (
     BaseModelOutputWithPoolingAndCrossAttentions,
     CausalLMOutputWithCrossAttentions,
     MaskedLMOutput,
-    MultipleChoiceModelOutput,
-    NextSentencePredictorOutput,
-    QuestionAnsweringModelOutput,
-    SequenceClassifierOutput,
-    TokenClassifierOutput,
 )
 from transformers.modeling_utils import (
     PreTrainedModel,
@@ -179,14 +173,14 @@ class BertTripConfig(PretrainedConfig):
         self.pretrained_model_config_file = f'{self.pretrained_model_dir}/config.json'
         self.finetuned_model_dir = f'{self.saved_model_dir}/finetuned/{self.dataset}'
         self.finetuned_model_config_file = f'{self.finetuned_model_dir}/config.json'
-
-        self.data_dir = f'./data/{self.dataset}'
-        self.pretrain_data = f'{self.data_dir}/pretrain_data.csv'
-        self.train_data = f'{self.data_dir}/train.csv'
-        self.test_data = f'{self.data_dir}/test.csv'
-        self.train_data2 = f'{self.data_dir}/traj-{self.dataset}.csv'
-        self.poi_data = f'{self.data_dir}/poi-{self.dataset}.csv'
-        self.data = f'{self.data_dir}/data.csv'
+        base_dir = Path(__file__).resolve().parent.parent.parent
+        self.data_dir = base_dir / 'data' / self.dataset
+        self.pretrain_data = self.data_dir / 'pretrain_data.csv'
+        self.train_data = self.data_dir / 'train.csv'
+        self.test_data = self.data_dir / 'test.csv'
+        self.train_data2 = self.data_dir / f'traj-{self.dataset}.csv'
+        self.poi_data = self.data_dir / f'poi-{self.dataset}.csv'
+        self.data = self.data_dir / 'data.csv'
 
         self.poi_vocab_file = f'{self.data_dir}/poi_vocab.txt'
 

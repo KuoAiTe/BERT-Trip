@@ -75,20 +75,6 @@ if __name__ == "__main__":
                 # create pretrain_file using transition matrix by train data and then save it
                 # only useful for the Flickr datasets or for the WeePlaces datasets with lower numbers of POIs.
 
-                """
-                if first:
-                    print("pretrain file")
-                    pretrain_df, g = pretrain_file_processor.create_pretrain_file(dataset = dataset, train_data = m.config.train_data, train_data2 = m.config.train_data2, poi_data = m.config.poi_vocab_file, sep = m.config.feature_sep, expected_size = expected_size)
-                    pretrain_df.to_csv(share_pretrain_data_file_path, sep = m.config.feature_sep, header = None, index = False)
-                    first = False
-                for epoch in range(0, 5):
-                    m.train(share_pretrain_data_file_path, batch_size = batch_size, epochs = 5, save_model = False)
-                    result = tester.run(m.config.test_data, model = m.model, epoch = epoch, strategy = 'one_by_one', verbose = False)
-                    results.insert_fold_records(model, m.config, random_state, fold, epoch, result, 'one_by_one')
-                    result = tester.run(m.config.test_data, model = m.model, epoch = epoch, strategy = 'all_in_once', verbose = False)
-                    results.insert_fold_records(model, m.config, random_state, fold, epoch, result, 'all_in_once')
-                """
-
                 N = int(expected_size / len(train_data.index))
                 train_df = pd.concat([train_data] * N, ignore_index = True)
                 for epoch in range(50):

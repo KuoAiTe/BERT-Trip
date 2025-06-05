@@ -1,16 +1,12 @@
 import json
-import os
-import pickle
-import random
 import time
-import warnings
 import numpy as np
-from typing import Dict, List, Optional
-#import torch
-#from transformers import PreTrainedTokenizer
 import subprocess
+from pathlib import Path
 from datetime import datetime
 
+from nltk.translate.bleu_score import sentence_bleu
+from nltk.translate.bleu_score import SmoothingFunction
 
 dataset_metadata = {
     'edin': {'USER_NUM':386, 'TIME_NUM': 48},
@@ -50,9 +46,6 @@ file_max_sequence_length = {
     'toro': 15,
 }
 
-import pandas as pd
-
-
 def Haversine(lat1, lon1, lat2, lon2):
     R = 6371.0088
     lat1, lon1, lat2, lon2 = map(np.radians, [lat1, lon1, lat2, lon2])
@@ -88,12 +81,30 @@ def log(i, config, result):
             f.write(w)
 
 def wccount(filename):
-    out = subprocess.Popen(['wc', '-l', filename],
-                         stdout=subprocess.PIPE,
-                         stderr=subprocess.STDOUT
-                         ).communicate()[0]
-    return int(out.partition(b' ')[0])
-# cpdef float calc_pairsF1(y, y_hat):
+    """
+    Counts the number of lines in the given file using the `wc -l` command.
+
+    Parameters:
+        filename (str): Path to the file.
+
+    Returns:
+        int: Number of lines in the file.
+
+    Raises:
+        FileNotFoundError: If the file does not exist or cannot be accessed.
+        RuntimeError: For other subprocess-related errors.
+    """
+    try:
+        out = subprocess.Popen(
+            ['wc', '-l', filename],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT
+        ).communicate()[0]
+        return int(out.partition(b' ')[0])
+    except FileNotFoundError:
+        raise FileNotFoundError(f"File '{filename}' not found.")
+    except Exception as e:
+        raise RuntimeError(f"Failed to count lines in '{filename}': {e}")
 
 def calc_F1(expected, predict, noloop=False):
     '''Compute recall, precision and F1 for recommended trajectories'''
@@ -231,9 +242,8 @@ def true_pairs_f1(y, y_hat):
         print()
     """
     return float(f1)
+
 def bleu(reference, candidate):
-    from nltk.translate.bleu_score import sentence_bleu
-    from nltk.translate.bleu_score import SmoothingFunction
     #delete starting and ending points
     refSize = len(reference)
     canSize = len(candidate)
@@ -279,7 +289,6 @@ def get_model(model_name):
 def get_kfold_data(df, shuffle = True, cold_start_user = True, fixed_random_state = None):
     base_random_state = int(time.time())
     from sklearn.model_selection import train_test_split
-    from sklearn.model_selection import ShuffleSplit
     offset = 0
     while True:
         if offset >= 50:
@@ -305,7 +314,6 @@ def get_kfold_data(df, shuffle = True, cold_start_user = True, fixed_random_stat
 
         offset += 1
         if is_all_pois_in_train_set:
-            print("tries", offset)
             break
         else:
             pass
@@ -313,7 +321,6 @@ def get_kfold_data(df, shuffle = True, cold_start_user = True, fixed_random_stat
     return train_data, test_data, random_state
 
 def get_root_dir():
-    from pathlib import Path
     root_dir = Path(__file__).resolve().parent.parent
     return root_dir
 def get_data_dir():

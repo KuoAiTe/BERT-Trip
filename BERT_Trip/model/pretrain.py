@@ -4,7 +4,8 @@ import numpy as np
 import random
 from torch.utils.data.dataset import Dataset
 from typing import Dict
-from transformers import PreTrainedTokenizer, BertTokenizer, BertConfig, TrainingArguments, Trainer
+import transformers
+from transformers import PreTrainedTokenizer, BertTokenizer, BertConfig, TrainingArguments
 from .data_collator import  DataCollatorForLanguageModeling
 from .bert.bert_model import BertTripConfig
 from datetime import datetime
@@ -54,7 +55,7 @@ class TripTrainer:
             per_device_train_batch_size = batch_size,
             save_steps = save_steps,
         )
-        trainer = Trainer(
+        trainer = transformers.Trainer(
             model = self.model,
             args = training_args,
             data_collator = self.data_collator,

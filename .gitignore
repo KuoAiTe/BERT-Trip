@@ -1,1 +1,4 @@
 results/*
+**/pretrain_data.csv
+**/test.csv
+**/train.csv
