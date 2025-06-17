@@ -54,7 +54,7 @@ class BERT_Trip(BERT_FOR_POI):
     def compute_loss(self, batch):
         outputs = self.forward(**batch)
         aug_outputs = self.forward(input_ids = batch['aug_input_ids'], attention_mask = batch['aug_attention_mask'])
-        mlm_loss = self.compute_mlm_loss(outputs.mlm_head_logits, batch['labels']) + self.compute_mlm_loss(aug_outputs.mlm_head_logits, batch['aug_labels']) / 2
+        mlm_loss = (self.compute_mlm_loss(outputs.mlm_head_logits, batch['labels']) + self.compute_mlm_loss(aug_outputs.mlm_head_logits, batch['aug_labels'])) / 2
         siamese_loss = self.compute_siam_loss(outputs, aug_outputs)
         loss = mlm_loss + siamese_loss
         return loss
